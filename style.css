@@ -1,80 +1,76 @@
 body {
-    height: 100vh;
+    background-color: #ffffff;
+    padding: 0;
     margin: 0;
-    overflow: hidden;
+    text-align: center;
     font-family: Roboto, sans-serif;
 }
-.hero {
-    
-    height: 500px;
-    background-color: #1f2937;
-    color: white;
-    
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
 }
 .header {
     display: flex;
-    
-    justify-content: space-between;
-    align-items: flex-start;
+    background-color: #1f2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 .right-links {
     display: flex;
-    align-items: baseline;
-    gap: 10px;
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-right: 60px;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
 }
 header {
-    margin-left: 60px;
     margin-top: 12px;
     font-size: 32px;
     color: #f9faf8;
     font-weight: 900;
 }
 .hero-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+   
+}
+.hero-text {
+    flex-basis: 400 px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 325px;
+    text-align: left;
+    margin-right: 50px;
 }
-.hero-big {
-    width: 500px;
-    flex-wrap: wrap;
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-    margin-left: 60px;
-}
-button.newsletter {
+.hero-container button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
     background-color: #3882f6;
     color: #e5e7eb;
     width: 150px;
     height: 45px;
-    margin-left: 205px;
+    text-decoration: none;
 }
-.hero-image {
-    display: flex;
-    justify-content: center;
-    margin-top: -125px;
-    margin-right: 175px;
-    margin-left: 550px;
+.hero-hops {
+    width: 500px;
+    height: 350px;
 }
-.hero-text {
-    margin-left: 60px;
+.hero-text p {
     font-size: 18px;
     color: #f9faf8;
 }
-.hero-hops {
-    width: 400px;
-    height: 300px;
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
 }
-
-
-ul{
-    list-style-type: none;
-}
-
 a {
     background-image: linear-gradient(
         to right,
