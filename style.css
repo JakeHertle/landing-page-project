@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #f9faf8;
+    background-color: #1f2937;
 }
 .header {
     display: flex;
@@ -64,12 +65,14 @@ header {
 .hero-text p {
     font-size: 18px;
     color: #f9faf8;
+    width: 350px;
 }
 h1 {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
     margin: 0;
+    width: 350px;
 }
 a {
     background-image: linear-gradient(
@@ -104,3 +107,26 @@ a:hover {
 a:hover::before {
     width: 100%;
 }
+.information img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 2px solid #1f2937;
+    
+  }
+.information {
+    color: #1f2937;
+}  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+  .info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  .info {
+    max-width: 200px;
+  }
